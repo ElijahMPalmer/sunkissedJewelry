@@ -23,6 +23,10 @@
     color: white;
 }
 
+#facebook-flag {
+    animation: animateDown infinite 1.5s;
+}
+
 .App-link {
     color: #61dafb;
 }
@@ -44,5 +48,21 @@
     padding: 0;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: 4;
+}
+
+@keyframes animateDown {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(8px);
+    }
+    60% {
+        transform: translateX(3px);
+    }
 }

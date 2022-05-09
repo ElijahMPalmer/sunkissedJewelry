@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.0.6",
+    "styled-components": "^5.3.5",
     "tslib": "^2.4.0",
     "tsparticles": "^2.0.6",
     "tsparticles-engine": "^2.0.6"
